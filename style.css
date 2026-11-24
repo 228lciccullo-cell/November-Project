@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+}
+
+body {
+    background-image: url("IMG/can\ you\ generate\ me\ a\ fall\ backg\ 364077\ 0gr.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+ h1 {
+    color: #853b16;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.table-area {
+    background-color: #754321;
+    border: 12px solid #593016;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0 12px 20px #0004;
+}
+
+.tablecloth {
+    background-color: #fff8e9;
+    border-radius: 15px;
+    padding: 20px;
+    min-height: 350px;
+}
+
+.dish {
+    background-color: #fff;
+    border: 8px solid #ded6c9;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 0 4px 8px #0002;
+}
+
+.dish strong {
+    color: #853b16;
+    font-size: 15px;
+}
+
+.dish p {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.main-dish {
+    width: 220px;
+    height: 220px;
+    border-width: 12px;
+}
+
+.main-dish p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.drink {
+    width: 120px;
+    height: 120px;
+}
+
+.drink p {
+    font-size: 13px;
+}
+
+.btn-generate {
+    background-color: #853b16;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.btn-generate:hover {
+    background-color: #59270e;
+    color: white;
+}
+
+@media(max-width: 600px) {
+.dish {
+    width: 145px;
+    height: 145px;
+    padding: 8px;
+}
+
+.main-dish {
+    width: 180px;
+    height: 180px;
+}
+
+.drink {
+    width: 110px;
+    height: 110px;
+}
+}
+
+button {
+    background-color: #8b4513 !important;
+    border: none !important;
+}
+
+button:hover {
+    background-color: #61300d !important;
+}
